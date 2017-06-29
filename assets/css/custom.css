@@ -1,0 +1,19 @@
+.cryptedmail:after {
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
+.cryptedtel:after {
+  content: '+' attr(data-country) '(' attr(data-lada) ')' attr(data-p1) '-' attr(data-p2);
+}
+
+.me-header{
+  padding-top: 115px;
+}
+
+.me-header figure{
+  margin-top:-100px;
+  margin-left: -100px;
+}
+
+.me-header figure img{
+  width: 200px;
+}
